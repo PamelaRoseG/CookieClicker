@@ -33,11 +33,11 @@ button {
   border: 5px solid rgba(255, 0, 0, 0.334);
   border-radius: 8%;
   width: 180px;
-  height: 60px;
+  height: 70px;
   font-family: "coinyregular";
-  font-size: 11px;
-  font-weight: 700;
-  padding: 6px;
+  font-size: 13.5px;
+  font-weight: 800;
+  padding: 10px;
 }
 
 /* BUTTONS */
@@ -105,7 +105,7 @@ button {
   pointer-events: none;
   position: relative;
   text-align: center;
-  top: -270px;
+  top: -250px;
   left: 55px;
   width: 300px;
   height: 65px;
