@@ -33,11 +33,11 @@ button {
   border: 5px solid rgba(255, 0, 0, 0.334);
   border-radius: 8%;
   width: 180px;
-  height: 70px;
+  height: 60px;
   font-family: "coinyregular";
   font-size: 11px;
-  font-weight: 800;
-  padding: 8px;
+  font-weight: 700;
+  padding: 6px;
 }
 
 /* BUTTONS */
@@ -74,7 +74,7 @@ button {
 /* CONTAINERS */
 .cookie-wrapper {
   position: absolute;
-  margin-top: 70px;
+  margin-top: 96px;
   margin-left: 325px;
 }
 
