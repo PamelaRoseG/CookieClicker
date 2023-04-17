@@ -12,7 +12,7 @@ body {
   background-image: url("./pageimg/sunshinebackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 @font-face {
   font-family: "coinyregular";
