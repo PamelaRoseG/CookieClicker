@@ -1,24 +1,9 @@
-.parent {
-  overflow:hidden;
-  width:80px;
-  height:400px;
-}
-
-.enfant {
-  width:80px;
-  height: 100%;
-  padding-right:20px;
-  overflow: auto;
-  overflow-x: hidden;
-}
-
-html,
 body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -26,11 +11,10 @@ body {
   background-image: url("./pageimg/sunshinebackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 @font-face {
   font-family: "coinyregular";
-  src: url("fonts/coiny-regular-webfont.woff");
+  src: url("fonts/coiny-regular-webfont.woff2");
   src: url("fonts/coiny-regular-webfont.eot?#iefix") format("embedded-opentype"),
     url("fonts/coiny-regular-webfont.woff2") format("woff2"),
     url("fonts/coiny-regular-webfont.woff") format("woff"),
