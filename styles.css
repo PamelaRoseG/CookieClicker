@@ -1,16 +1,9 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
-
-body {
   font-family: "coinyregular";
   background-image: url("./pageimg/sunshinebackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 @font-face {
   font-family: "coinyregular";
@@ -31,7 +24,7 @@ body {
 #dollarAmount {
   position: absolute;
   margin-top: 25px;
-  left: 395px;
+  left: 200px;
   font-size: 96px;
 }
 
@@ -42,9 +35,9 @@ button {
   width: 180px;
   height: 80px;
   font-family: "coinyregular";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
-  padding: -20px -10px;
+  padding: 12px;
 }
 
 /* BUTTONS */
@@ -54,7 +47,6 @@ button {
 }
 #btn-shovel {
   cursor: pointer;
-  font-size: 19px;
 }
 #btn-bucket {
   cursor: pointer;
@@ -65,32 +57,32 @@ button {
 /* ICONS */
 #shovel-icon {
   width: 80px;
-  height: 80px;
+  height: 65px;
   margin-top: 8px;
 }
 #bucket-icon {
   width: 80px;
-  height: 80px;
+  height: 65px;
   margin-top: 20px;
 }
 #truck-icon {
   width: 90px;
-  height: 90px;
+  height: 65px;
   margin-top: 8px;
 }
 
 /* CONTAINERS */
 .cookie-wrapper {
   position: absolute;
-  margin-top: 80px;
-  margin-left: 550px;
+  margin-top: 70px;
+  margin-left: 425px;
 }
 
 .shovel-wrapper {
   text-align: center;
   background-color: rgba(248, 235, 132, 0.493);
   border: 10px solid rgb(228, 127, 127);
-  height: 125px;
+  height: 100px;
   width: 125px;
 }
 
@@ -98,14 +90,14 @@ button {
   text-align: center;
   background-color: rgba(248, 235, 132, 0.493);
   border: 10px solid rgb(228, 127, 127);
-  height: 125px;
+  height: 100px;
   width: 125px;
 }
 .truck-wrapper {
   text-align: center;
   background-color: rgba(248, 235, 132, 0.493);
   border: 10px solid rgb(228, 127, 127);
-  height: 125px;
+  height: 100px;
   width: 125px;
 }
 
@@ -113,8 +105,8 @@ button {
   pointer-events: none;
   position: relative;
   text-align: center;
-  top: -300px;
-  left: 100px;
+  top: -270px;
+  left: 55px;
   width: 300px;
   height: 65px;
   font-size: 32px;
@@ -128,14 +120,14 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 1200px;
+  margin-left: 1000px;
   margin-top: 30px;
   box-shadow: -5px 20px 50px red;
-  height: 150px;
+  height: 100px;
   width: 120px;
 }
 .inventory-box {
-  height: 125px;
+  height: 100px;
   width: 150px;
   background-color: rgba(248, 235, 132, 0.493);
   border: 10px solid rgb(228, 127, 127);
