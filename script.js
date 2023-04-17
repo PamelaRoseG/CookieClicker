@@ -96,5 +96,5 @@ function handleClick(action) {
 // Random sources of code I found on the internet to implement to make
 // some ideas
 
-var audio = document.getElementById("sweet-music");
-audio.volume = 0.05;
+// var audio = document.getElementById("sweet-music");
+// audio.volume = 0.05;
