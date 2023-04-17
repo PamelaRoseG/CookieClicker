@@ -75,7 +75,7 @@ button {
 .cookie-wrapper {
   position: absolute;
   margin-top: 96px;
-  margin-left: 325px;
+  margin-left: 370px;
 }
 
 .shovel-wrapper {
@@ -120,7 +120,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 800px;
+  margin-left: 960px;
   margin-top: 30px;
   box-shadow: -5px 20px 50px red;
   height: 100px;
